@@ -1,0 +1,28 @@
+#logIn {
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;
+    width: 100%;
+    height: 100%;
+}
+#enterData{
+    width: 300px;
+    height: 200px;
+    margin:auto;
+    margin-top:10%;
+    background-color: #dedede;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+#enterData p{
+    margin-top: 10px;
+}
+#userMail {margin-left: 30px; width: 215px;}
+#userPass {margin-left: 21px; width: 215px;}
+#btnLgIn {margin-top: 53px; width: 300px;}
+#btnRg{width: 300px;}
+
+#ifErr{ position: absolute; width: 300px;}

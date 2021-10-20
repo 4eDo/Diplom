@@ -1,0 +1,82 @@
+#nav_mob_button {
+    display: none;
+}
+
+#nav_mob{
+    display: none;
+    position: fixed;
+    width: 20%;
+    top: 0px;
+    left:-20%;
+    height: 100%;
+    background: #5d88b6;
+    transition: all .5s ease;
+    text-align: center;
+    font-family: 'Roboto Slab';
+}
+
+@media (max-width: 1024px) and (min-width: 10px) {
+    #nav_mob{
+        display: none;
+        padding: 0px;
+        vertical-align: middle;
+        width: 20%;
+        top: 0px;
+        left: 0%;
+        z-index: 99999;
+        min-width: 145px;
+    }
+
+    #nav_mob_button {
+        display: block;
+        position: fixed;
+        width: 100%;
+        background-color: #5d88b6;
+        color: #fff;
+        z-index: 99998;
+    }
+
+    #nav_mob_button_x {
+        display: block;
+        height: 35px;
+        padding-top: 10px;
+    }
+
+
+    #nav {display: none;}
+
+
+    #cbd{
+        padding-top: 40px;
+        width: 100%;
+    }
+
+    #content{
+        display: block;
+    }
+
+    .litText {word-wrap: break-word;
+        font-size: smaller;
+        width: 100%;
+    }
+
+    .mob_menu_button {
+        color: #fff !important;
+        font-size: large;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .mob_menu_button:hover {
+        color: #44ffff !important;
+        font-size: large;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .name_date_bottom {
+        position: fixed;
+        bottom: 0px;
+        right: 0px;
+    }
+}

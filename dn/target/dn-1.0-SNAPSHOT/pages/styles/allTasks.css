@@ -1,0 +1,59 @@
+th{
+    cursor: pointer;
+}
+
+th.sorted[data-order="1"],
+th.sorted[data-order="-1"] {
+    position: relative;
+}
+
+th.sorted[data-order="1"]::after,
+th.sorted[data-order="-1"]::after {
+    right: 8px;
+    position: absolute;
+    font-weight: bold;
+    top:9px;
+}
+
+th.sorted[data-order="-1"]::after {
+    content: "\2193"
+}
+
+th.sorted[data-order="1"]::after {
+    content: "\2191"
+}
+
+a.button{
+    width: 70px !important;
+    padding: 2px !important;
+}
+
+.searchKey{
+    width: 400px;
+    cursor: pointer;
+}
+
+.no-result {
+    display: none;
+}
+.searchCount {
+    padding: 8px;
+}
+.table_sort tr[visible='false'],
+.no-result {
+    display: none;
+}
+.table_sort tr[visible='true'] {
+    display: table-row;
+}
+
+#seInp, #archLink {
+    display: inline-block;
+}
+#archLink{ float: right; width: 200px;}
+a.button {
+    min-width: 70px !important;
+    width: auto !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}

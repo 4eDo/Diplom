@@ -1,0 +1,77 @@
+#statImg{
+    width: 800px;
+    height: 240px;
+}
+#graph.graph{
+    border: 1px dashed #00000033;
+    padding: 5px;
+}
+#graph .item{
+    margin: 2px;
+    color: #000000;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 3px;  
+    border: 1px solid #00000088;
+    background-color: #dedede;
+    box-shadow: 0 0 1px #f8f8f8;
+    transition: 500ms;
+    font-size: small;
+    cursor:pointer;
+    position: relative;
+}
+#graph .item:hover{
+    background-color: #f8f8f8;  
+    box-shadow: 0 0 2px #f8f8f8;
+}
+
+#graph.vertical{
+    height: 150px;
+    width: 800px; 
+    padding-bottom: 10px;
+}
+#graph.vertical .item{
+    width: 40px;  
+    vertical-align:bottom;
+    display: inline-block;
+    text-align: center;
+    min-height: 14px;
+}
+.inCol{
+    position: absolute;
+    bottom: -40px;
+}
+
+.tsk{
+    width: 812px !important;
+}
+.statBody{
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
+
+.moreStat tbody tr:nth-child(odd){
+    background-color: #f8f8f811;
+}
+.moreStat tbody tr:hover{
+    outline: 1px solid #00000088;
+}
+
+.moreStat td, .moreStat th {
+    border: 1px solid #00000044;
+}
+.moreStat{
+    border-collapse: collapse;
+}
+.moreStat tbody{
+    vertical-align: top;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+.popMasters, .popTypes, .popLocations, .popT{
+    font-size: small;
+    border-collapse: collapse;
+    border: 1px solid #00000022 !important;
+}
